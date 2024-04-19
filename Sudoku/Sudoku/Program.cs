@@ -10,6 +10,9 @@ namespace Sudoku
     {
         static void Main(string[] args)
         {
+            int[,] tabella = GeneraSudoku();
+            CGioco risolvi = new CGioco(tabella);
+            
         }
     }
 }
